@@ -6,7 +6,7 @@ import rtlPlugin from 'stylis-plugin-rtl';
 import { prefixer } from 'stylis';
 import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
-import Joi, { number } from "joi";
+import Joi from "joi";
 import { joiResolver } from "@hookform/resolvers/joi";
 import { useForm } from "react-hook-form"
 import { Button } from '@mui/material';
@@ -56,7 +56,7 @@ const AddressStep = () => {
             })
     })
 
-    let { register, handleSubmit, watch, formState: { errors } } = useForm({
+    let { register, handleSubmit, formState: { errors } } = useForm({
         mode: "all"
         ,
         resolver: joiResolver(schema)
