@@ -1,0 +1,64 @@
+.kk {
+    list-style-type: none;
+}
+
+.try {
+    background-color: red;
+    width: 30%;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 215, 215);
+    /* color: white; */
+    text-align: center;
+}
+
+.logo-gif {
+    width: 200px !important; /* Adjust as needed */
+    position: fixed; /* Use fixed positioning */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Move the element back by half of its own width and height */
+    z-index: 3;
+}
+
+.div-logo-loading {
+    position: relative;
+}
+.img-logo{
+    width: 100%;
+}
+
+.css-ztrqiq-MuiImageListItemBar-root {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(244, 150, 150, 0.482) !important;
+}
+
+.css-ztrqiq-MuiImageListItemBar-root:hover {
+    opacity: 0.7; 
+    /* transition: opacity 1s ease;  */
+}
+.product-grid {
+    /* display: grid; */
+
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  */
+    /* gap: 20px;  */
+    /* padding: 20px; */
+    
+}
+/* <div class="MuiStack-root footer css-6rg9iv-MuiStack-root"><nav aria-label="pagination navigation" class="MuiPagination-root MuiPagination-text css-f77l2s-MuiPagination-root"><ul class="MuiPagination-ul css-wjh20t-MuiPagination-ul"><li><button class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular Mui-disabled MuiPaginationItem-previousNext css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root" tabindex="-1" type="button" disabled="" aria-label="Go to previous page"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowForwardIcon"><path d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></button></li><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular Mui-selected MuiPaginationItem-page css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root" tabindex="0" type="button" aria-current="true" aria-label="page 1">1<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></li><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-page css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root" tabindex="0" type="button" aria-label="Go to page 2">2<span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></li><li><button class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-previousNext css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root" tabindex="0" type="button" aria-label="Go to next page"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowBackIcon"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"></path></svg><span class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"></span></button></li></ul></nav></div> */
+
+.images{
+    width: 95%;
+    height: 100%;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+.footer{
+    z-index: 2 !important;
+}

@@ -1,0 +1,19 @@
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+    color: #d21941 !important;
+    /* padding-left: 8px !important; */
+    
+}    
+/* רווח בין העיגול לטקסט */
+.css-vnkopk-MuiStepLabel-iconContainer{
+    padding-left: 20px !important;
+    
+}
+/* אחרי שהושלם */
+.Mui-completed {
+    
+}
+/* במקום אפור */
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+    /* color: #d21941 !important; */
+    
+}

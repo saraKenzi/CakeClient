@@ -1,0 +1,54 @@
+.listItemStyle {
+    text-align: right !important;
+}
+
+.btnStyle {
+    color: black !important;
+}
+
+.xBtnStyle {
+    color: rgb(243, 15, 15) !important;
+
+}
+/*השם של המוצר בסל הגדול*/
+.css-10hburv-MuiTypography-root {
+    font-weight: 700 !important;
+    font-size: 2rem;
+    letter-spacing: 0.938em;
+
+
+}
+
+.css-83ijpv-MuiTypography-root {
+
+}
+
+
+.item-basket-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image {
+    width: 100px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .item-basket-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-image {
+        width: 80px;
+    }
+}
+
+

@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.errMsg{
+    font-size: small;
+    color: red;
+    margin-bottom: 1%;
+    width: 120%;
+    text-align: center;
+}
+/* .gridStyle{
+    margin: auto 0;
+} */

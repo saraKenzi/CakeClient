@@ -1,0 +1,10 @@
+ .listItemStyle{
+    background-color: rgba(242, 214, 234, 0.237) !important;
+    margin-bottom: 2% !important;
+}
+.imgStyle{
+     width: 70px;
+     border-radius: 10%;
+     border: solid 2px rgb(185, 128, 145);
+     margin-left: 10px;
+}
