@@ -3,37 +3,29 @@ import * as React from 'react';
 import { useState } from "react";
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemButton from '@mui/material/ListItemButton';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 
 import Box from '@mui/material/Box';
 
-import Badge from '@mui/material/Badge';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
-import MailIcon from '@mui/icons-material/Mail';
-import Switch from '@mui/material/Switch';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import DeleteIcon from '@mui/icons-material/Delete';
+
 import SmallBasket from "../order/SmallBasket";
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import { addProductToBasket } from "../order/orderSlice";
 import { useDispatch, useSelector } from "react-redux";
-import Carsole from "./Carsole";
+// import Carsole from "./Carsole";
 import { Grid } from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import NotFound from '../NotFound';
+import Carrousel from "./CarrouselImg";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="right" ref={ref} {...props} />;
@@ -98,11 +90,10 @@ const ProductDetails = () => {
             <Box p={4} sx={{ m: 1 }}>
                 <Grid container spacing={3}>
                     <Grid item xs={12} sm={5} md={5}>
-
-                        <Carsole one={one} />
+                        <Carrousel one={one} />
                     </Grid>
 
-                    <Grid item xs={12}  sm={7} md={7}>
+                    <Grid item xs={12} sm={7} md={7}>
 
 
                         <Box>
@@ -141,8 +132,9 @@ const ProductDetails = () => {
                                 <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
                                 </Typography>
                                 <Button variant="outlined" sx={{ mt: 2, mb: 2 }}
-                                    onClick={()=>{
-                                        (addToBasket())}}
+                                    onClick={() => {
+                                        (addToBasket())
+                                    }}
                                     startIcon={<LocalGroceryStoreIcon sx={{ ml: 1 }} />}>
                                     הוספה לסל
                                 </Button>

@@ -17,7 +17,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import EditProduct from './features/product/EditProduct';
 import ProtectedRoute from './utils/ProtectedRoute';
 import NotFound from './features/NotFound';
-
+import Carrousel from './features/product/CarrouselImg';
 const nightStyle = createTheme({
   palette: {
     primary: {
@@ -56,7 +56,6 @@ function App() {
       <CssBaseline />
 
       <NavBar />
-
       <Routes>
         <Route path="/" element={<AllProducts />} />
         <Route path="/:id" element={<ProductDetails />} />
